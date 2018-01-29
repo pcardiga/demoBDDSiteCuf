@@ -5,7 +5,6 @@ I need to be able to interact with all homepage elements
 
   Background: Access homepage and Accept cookies
     Given I access CUFSaude homepage
-#    And I accept site cookies
 
   Scenario: Verify the presence of menus
     Given I am on the homepage
