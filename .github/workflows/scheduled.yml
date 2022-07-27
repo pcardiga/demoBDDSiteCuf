@@ -4,7 +4,7 @@ name: Schedule workflow
 
 on:
   schedule:
-    - cron:  '58 10 * * *'
+    - cron:  '04 13 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
