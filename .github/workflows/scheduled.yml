@@ -2,7 +2,7 @@ name: Schedule workflow
 
 on:
   schedule:
-    - cron:  '08 11 * * *'
+    - cron:  '00 13 * * *'
 
 jobs:
   TestJob:
