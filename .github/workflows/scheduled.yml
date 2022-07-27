@@ -1,20 +1,13 @@
-# This is a basic workflow that is manually triggered
-
 name: Schedule workflow
 
 on:
   schedule:
-    - cron:  '04 13 * * *'
+    - cron:  '08 11 * * *'
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "greet"
   TestJob:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
-    - name: Say hello
-      run: echo "Hello, , because it's time to do so!"
+    - name: Say hello at a certain hour
+      run: echo "Hello, because it's time to do so!"
